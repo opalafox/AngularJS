@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+  <script src="main.js"></script>
+
+  <title>Controlador AngularJS</title>
+
+  </head>
+  <body>
+
+    <h3>Controlador:</h3>
+
+    <div ng-controller="guitarrasController">
+      Marca: <input type="text" placeholder="Introduce la marca" ng-model="guitarras.marca "> <br><br>
+      Color : <input type="text" placeholder="Introce el color" ng-model="guitarras.color "> <br><br>
+      Los datos de la guitarra son: {{guitarras.marca + " " + guitarras.color}}
+    </div>
+
+  </body>
+  </html>
+
+  <!--OPV-->
