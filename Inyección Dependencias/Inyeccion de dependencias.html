@@ -1,0 +1,20 @@
+<html ng-app="AppInyection">
+<head>
+  <title>Inyección de dependencias</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <h1>Inyeccion de dependencias</h1>
+  <div ng-controller="ControladorInyection">
+    <p>
+      <span ng-bind="resultado"></span>
+    </p>
+    <p>
+      <button ng-click="ejecutarAccion()">Ejecutar acción</button>
+    </p>
+  </div>
+</body>
